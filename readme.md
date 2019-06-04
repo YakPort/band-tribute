@@ -52,6 +52,8 @@ Nothing happens when trying to submit the contact us page as the backend logic h
 ### Bugs
 The wikipedia page gave me the most grief as it is not as repsonsive as I would have liked, I believe the alternative is to copy the content from Wikipedia - provided that it is cited to avoid any copyright infringements 
 
+I am unable to get the footer to show in the wikipedia page
+
 The background image css, I was recopying it and just changing the image url path for each page, but for some reason it overwrote all my custom bootstrap css that I had implmented. I overcame this by using a DRY and having a generic class for full width image background, however I created a custom background class and just creating a custom css rule for it. 
 
 
