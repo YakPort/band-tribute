@@ -63,6 +63,15 @@
     margin-top: 5vh;
 }
 
+/* *************** content contact.html ****************** */
+.contact-background {
+background: url('../images/skyline.jpg') no-repeat center center fixed;
+
+}
+
+.mb-4, .my-4 {
+    color: #fff
+}
 /* ************** Navbar ******************** */
 
 .navbar-light .navbar-nav .nav-link {
