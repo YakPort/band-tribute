@@ -1,0 +1,119 @@
+/* *************** content index.html ****************** */
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/biggie_bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.lead {
+    background-color: rgba(98, 98, 98, 0.5);
+    font-size: 30px;
+    padding: 0px 30px 5px 5px;
+   
+    
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Paytone One', sans-serif;
+}
+
+
+
+/* *************** content about.html ****************** */
+
+.about-container {
+    height: 100vh;
+    background: url('../images/220675.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.wiki {
+    height: 90vh;
+    position: absolute;
+    width: 90vw;
+    margin-top: 8.5vh;
+    margin-left: 15%;
+
+}
+
+
+
+/* *************** content music.html ****************** */
+
+
+.music-albums {
+    margin-top: 5vh;
+}
+
+/* ************** Navbar ******************** */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #cb9e34;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: silver;
+}
+.btn-success { 
+    background-color: #cb9e34; 
+    border: none;
+    
+}
+
+.btn-success:hover {
+    background-color: grey;
+}
+
+
+/* ****************Footer ********************* */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 24px 0px;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+
+
+.social-links li a i:hover {
+    background-color: #cb9e34;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
