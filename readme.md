@@ -46,29 +46,16 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 Contact form:
 Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Nothing happens when trying to submit the contact us page as the backend logic has not been implemented 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Bugs
+The wikipedia page gave me the most grief as it is not as repsonsive as I would have liked, I believe the alternative is to copy the content from Wikipedia - provided that it is cited to avoid any copyright infringements 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The background image css, I was recopying it and just changing the image url path for each page, but for some reason it overwrote all my custom bootstrap css that I had implmented. I overcame this by using a DRY and having a generic class for full width image background, however I created a custom background class and just creating a custom css rule for it. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+# Deployment
+I was having trouble with cloud9 so I downloaded the files offline and used VS code and connect it to my GitHub repository. 
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+I followed the code institute tutorial on how to deploy to GitHub Pages 
