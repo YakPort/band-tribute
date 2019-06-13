@@ -35,7 +35,7 @@ Existing Features
 
 # Features Left to Implement
 
-An e-commerce site for the user to purchase album art and other merchandise that we can offer.
+An e-commerce site for the user to purchase album art and other merchandise that we can offer. 
 
 # Technologies Used
 
@@ -58,6 +58,6 @@ The background image css, I was recopying it and just changing the image url pat
 
 
 # Deployment
-I was having trouble with cloud9 so I downloaded the files offline and used VS code and connect it to my GitHub repository. 
+I was having trouble with cloud9 so I downloaded the files offline and used VS code and connected it to my GitHub repository. 
 
 I followed the code institute tutorial on how to deploy to GitHub Pages 
